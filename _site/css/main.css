@@ -1,6 +1,6 @@
 /* GLOBAL STYLES */
 html {
-  box-shadow: 0 0 0 30px #000 inset;
+  box-shadow: 0 0 0 31px #000 inset;
   padding: 0 30px;
 }
 body {
@@ -104,12 +104,6 @@ h2 ~ p {
   color: #ccc;
 }
 
-/* HERO STYLES */
-.full-hero {
-  background-color: #c7dbfc;
-  height: 50vh;
-}
-
 /* SOCIAL STYLES */
 .social-list {
   list-style: none;
@@ -172,4 +166,17 @@ h2 ~ p {
 }
 .bio-copy a {
   color: green;
+}
+
+/* HERO STYLES */
+.full-hero {
+  background-color: #c7dbfc;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+  padding-top: 10vh;
+}
+.hero-home {
+  background-image: url(/images/shark.jpg);
+  background-position: center top;
 }
