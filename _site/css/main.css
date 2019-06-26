@@ -250,7 +250,7 @@ h2 ~ p {
   display: inline-block;
   margin: 0 0 10px;
   opacity: 0.5;
-  transition: all 2s ease-in-out;
+  transition: all 0.5s ease-in-out;
   width: 100%;
 }
 .gallery-thumbs img:hover {
