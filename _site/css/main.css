@@ -493,6 +493,12 @@ h2 ~ p {
   .post-aside {
     display: none;
   }
+  .blog-recent {
+    display: none;
+  }
+  .blog-previews {
+    padding: 0;
+  }
 
   /* GALLERY STYLES */
   .gallery {
@@ -517,7 +523,7 @@ h2 ~ p {
   }
   .gallery .gallery-info {
     flex: 1;
-  }            
+  }
 }
 
 @media (max-width: 600px) {
