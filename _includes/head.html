@@ -1,5 +1,14 @@
 <head>
-  <title>Test Page: Don't Panic</title>
+  {% if page.title %}
+    <title>{{ page.title }} | Test Page</title>
+  {% else %}
+    <title>Test Page: Don't Panic</title>
+  {% endif %}
+  {% if page.description %}
+    <meta name="description" content="{{ page. description }}">
+  {% else %}
+    <meta name="description" content="this is a test site">
+  {% endif %}
   <link rel="icon" href="/favicon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
